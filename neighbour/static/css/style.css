@@ -24,13 +24,13 @@ body{
 }
 .navbar{
     /* background-color:#161c2d !important;  */
-    background-color:rgb(4, 63, 63)!important; 
+    background-color:rgb(8, 63, 4)!important; 
 }
 .nav-link:hover{
     font-weight: bold !important;
 }
 .background{
-    background-image: url(/static/photos/hood1.webp);
+    background-image: url(/static/photos/estate.jpeg);
     height: 580px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
