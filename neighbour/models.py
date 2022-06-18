@@ -11,9 +11,9 @@ class NeighbourHood(models.Model):
     admin = models.ForeignKey(User, on_delete=models.CASCADE, related_name="hood",null=True)
     hood_logo = models.ImageField(upload_to='images/')
     description = models.TextField()
-    health_tell = PhoneField(null=True, blank=True)
-    police_number = PhoneField(null=True, blank=True)
-    area_administrator = models.CharField(max_length=100,null=True)
+    # health_tell = PhoneField(null=True, blank=True)
+    # police_number = PhoneField(null=True, blank=True)
+    # area_administrator = models.CharField(max_length=100,null=True)
     
     class Meta:
         ordering = ['-pk']
