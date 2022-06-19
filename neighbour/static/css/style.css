@@ -24,7 +24,7 @@ body{
 }
 .navbar{
     /* background-color:#161c2d !important;  */
-    background-color:rgb(8, 63, 4)!important; 
+    background-color: #53BF9D!important; 
 }
 .nav-link:hover{
     font-weight: bold !important;
@@ -43,7 +43,8 @@ body{
     background-repeat: no-repeat;
 }
 .sign1{
-    background-image: url(/static/photos/sign.png);
+    /* background-image: url(); */
+    background-color: #B25068;
     height: fit-content;
     background-size: 100% 100%;
     background-repeat: no-repeat;
