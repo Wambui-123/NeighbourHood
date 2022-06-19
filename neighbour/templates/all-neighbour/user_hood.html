@@ -22,8 +22,10 @@
                         </p>
                        {%endif%}
                 </div>
-                <div>
-                    <p><span class="font-weight-bold black">Complaints/Reviews:</span>  {{hood.description}}</p>
+                <div class="col-md-3">
+                    <p><span class="font-weight-bold">Hood Administrator:</span>  {{hood.area_administrator}}</p>
+                    <p><span class="font-weight-bold">Health Department:</span>  {{hood.health_tell}}</p>
+                    <p><span class="font-weight-bold">Police Authorities:</span>  {{hood.police_number}}</p>
                     <p><a href="#members" class="black"><span class="font-weight-bold">Member{{hood.members.count|pluralize}}:</span>  {{hood.members.count}}</a></p>
                 </div>
             </div>
