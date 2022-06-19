@@ -45,6 +45,13 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+.hoodsa{
+    background-color: #BABD42;
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .sign{
     background-image: url(/static/photos/sign.png);
     height: 630px;
@@ -84,7 +91,7 @@ body{
 }
 footer{
     color: white !important;
-    background-color:rgb(4, 63, 63)!important; 
+    background-color: #32502E!important; 
 }
 /* form here */
 .right{
@@ -231,15 +238,13 @@ footer{
 .black{
     color: black;
 }
-.orange{
-    background-color: rgb(248, 189, 79,0.8);
+.orange {
+    /* background-color: rgba(65, 7, 237, 0.8); */
     font-family: 'Rubik Moonrocks', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
-.orange{
-    background-color: #ECE7B4;
-    /* font-family: 'BLKCHCRY', sans-serif; */
-}
+
+
 .btn-outline-warning {
     border: solid 1px;
     border-color: #B33030;

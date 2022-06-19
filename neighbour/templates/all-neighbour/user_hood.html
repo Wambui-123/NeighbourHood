@@ -4,8 +4,9 @@
 {% load crispy_forms_tags %}
 {% block content %} 
 {{ block.super}}
+<div class="hoodsa">
     <div class="container-fluid">
-        {% comment %} <h2 class="text-center mt-3" style="font-size: 26px" >{{user.profile.neighbourhood.name|title}}</h2> {% endcomment %}
+        <h2 class="text-center mt-3 orange" style="font-size: 26px" >{{user.profile.neighbourhood.name|title}}</h2>
         <div class="hood-cont p-2 card mt-3" >
             <div class="row">
                 <div class="col-md-4">
@@ -39,7 +40,7 @@
             <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %} alert-dismissable">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                 {{message}}
-              </div>
+            </div>
             {% endfor %}
             {% endif %}
             <div class="row">
@@ -57,7 +58,7 @@
                             <a href="{% url 'update_business' hood.id business.id%}" ><i class="fas fa-edit"></i></a>
                             <a href="{% url 'delete_business' hood.id business.id%}" class="ml-4"><i class="fas fa-trash-alt text-danger"></i></a>
                             {%endif%}
-                    </span>
+                        </span>
                    
                     </div>
                     <div class="modal fade" id="modal-{{business.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -163,10 +164,11 @@
         <div class="container">
         <div class="">
         <div class=" mt-2">
-        <p class="copyright text-center"><small>&copy; 2021 All Rights Reserved.</small></p>
+        <p class="copyright text-center"><small>&copy; 2022 All Rights Reserved.</small></p>
         </div>
         </div>
         </div>
     
     </footer>
+</div>   
 {%endblock%}
