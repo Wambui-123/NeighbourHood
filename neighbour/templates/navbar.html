@@ -1,12 +1,10 @@
 {% load static %}
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-  {% comment %} <span> {% endcomment %}
     <img  style="width: 50px; height: 40px;" src="{% static 'photos/kenya_icon.png' %}" alt="/">
     <a class="navbar-brand neig text-center" href="{% url 'home' %}">
       <p> Jirani </p>
     </a> 
 
-  {% comment %} </span> {% endcomment %}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,7 +20,7 @@
         {% if request.user.profile.neighbourhood %}
         {%else%}
         <li class="nav-item active">
-          <a class="nav-link" href="{% url 'hoods' %}">Neighbourhoods </a>
+          <a class="nav-link neig text-center" href="{% url 'hoods' %}">Neighbourhoods </a>
         </li>
         {%endif%}
        
