@@ -1,7 +1,6 @@
 # NeighbourHood
 ## Author
-
-~ Yvonne Muthui
+[Yvonne Muthui](https://github.com/wambui-123)
 ## Description
 
 A Django framework Python application lets users know everything happening in your neighborhood.
@@ -19,9 +18,6 @@ A Django framework Python application lets users know everything happening in yo
 
 ![Image](/neighbour/static/photos/Screenshot%20from%202022-06-21%2011-23-49.png)
 ![Image](/neighbour/static/photos/Screenshot%20from%202022-06-20%2020-28-08.png)
-
-## Author
-[Yvonne Muthui](https://github.com/wambui-123)
 
 ## Technologies Used
 * Python 3.7.4
