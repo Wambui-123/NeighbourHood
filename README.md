@@ -16,13 +16,10 @@ A Django framework Python application lets users know everything happening in yo
 
 ## [Demo](https://wambo-neighboorhood.herokuapp.com/) click to view
 
-![Image](/static/img/Screenshot%20from%202022-06-14%2010-34-26.png)
+![Image](/neighbour/static/photos/Screenshot%20from%202022-06-20%2020-28-08.png)
 
 ## Author
 [Yvonne Muthui](https://github.com/wambui-123)
-
-## Description
-A web application just like instagram that lets you upload posts and edit your own profile pictures made using Django.
 
 ## Technologies Used
 * Python 3.7.4
@@ -47,7 +44,7 @@ A web application just like instagram that lets you upload posts and edit your o
 ## Installation and Set-up
 To view the app, open the live site link provided below on the README.
 Here is a run through of how to set up the application:
-* **Step 1** : Clone this repository using **`git clone https://github.com/Wambui-123/Instagram.git`**, or downloading a ZIP file of the code.
+* **Step 1** : Clone this repository using **`git clone https://github.com/Wambui-123/NeighbourHood.git`**, or downloading a ZIP file of the code.
 * **Step 2** : The repository, if downloaded as a .zip file will need to be extracted to your preferred location and opened
 * **Step 3** : Go to the project root directory and install the virtualenv library using pip an afterwards create a virtual environment. Run the following commands respectively:
     * **`pip install virtualenv`**
