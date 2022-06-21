@@ -1,16 +1,13 @@
 from django.test import TestCase
-
-from django.test import TestCase
-from .models import Post, neighbourhood,healthservices
+from .models import Post, neighbourhood
 from django.contrib.auth.models import User
 import datetime as dt
-
 
 
 # Create your tests here.
 class neighbourhoodTestClass(TestCase):
     def setUp(self):
-        self.Kahawa = neighbourhood(neighbourhood='Gashville')
+        self.Kahawa = neighbourhood(neighbourhood='Westlands')
 
     def test_instance(self):
         self.assertTrue(isinstance(self.Kahawa,neighbourhood))
