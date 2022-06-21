@@ -17,6 +17,8 @@ A Django framework Python application lets users know everything happening in yo
 ## [Demo](https://wambo-neighboorhood.herokuapp.com/) click to view
 
 ![Image](/neighbour/static/photos/Screenshot%20from%202022-06-20%2020-28-08.png)
+![Image](/neighbour/static/photos/Screenshot%20from%202022-06-21%2011-23-49.png)
+
 
 ## Author
 [Yvonne Muthui](https://github.com/wambui-123)
