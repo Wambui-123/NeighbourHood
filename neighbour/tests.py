@@ -7,21 +7,21 @@ import datetime as dt
 # Create your tests here.
 class neighbourhoodTestClass(TestCase):
     def setUp(self):
-        self.Kahawa = neighbourhood(neighbourhood='Westlands')
+        self.Estate = neighbourhood(neighbourhood='Westlands')
 
     def test_instance(self):
-        self.assertTrue(isinstance(self.Kahawa,neighbourhood))
+        self.assertTrue(isinstance(self.Estate,neighbourhood))
 
     def tearDown(self):
         neighbourhood.objects.all().delete()
 
     def test_save_method(self):
-        self.Kahawa.save_neighbourhood()
+        self.Estate.save_neighbourhood()
         hood = neighbourhood.objects.all()
         self.assertTrue(len(hood)>0)
 
     def test_delete_method(self):
-        self.Kahawa.delete_neighbourhood('Kahawa')
+        self.Estate.delete_neighbourhood('Estate')
         hood = neighbourhood.objects.all()
         self.assertTrue(len(hood)==0)
 
